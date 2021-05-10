@@ -4,6 +4,8 @@ if(process.env.NODE_ENV !=='production'){
 const express=require('express')
 const app=express()
 const expressLayouts=require('express-ejs-layouts')
+//use for input post information
+const bodyParser=require('body-parser')
 
 const indexRouter=require('./routes/index')
 const authorRouter=require('./routes/authors')
@@ -14,6 +16,8 @@ app.set('views', __dirname+'/views')
 app.set('layout', 'layouts/layout')
 app.use(expressLayouts)
 app.use(express.static('public'))
+//use for input post information
+app.use(bodyParser.urlencoded({limit:'10mb', extended:false}))
 
 //set up connection with mongoose
  const mongoose= require('mongoose')
