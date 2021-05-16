@@ -32,6 +32,7 @@
   color: var(--color-text-light);
   font-weight: var(--nav-link-font-weight);
   padding: 1rem;
+  font-size: 1.3rem;
 }
 .header-link a:hover {
   color: purple;

@@ -1,6 +1,7 @@
 @import 'shared/variable.css';
 @import 'shared/header.css';
 @import 'shared/button.css';
+@import 'shared/form.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 :root {
   font-size: 20px;
@@ -24,6 +25,7 @@ body {
   max-width: 1200px;
   margin: auto;
   margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 .inner-container {
   margin: 0 2rem;
