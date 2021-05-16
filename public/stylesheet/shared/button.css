@@ -1,0 +1,40 @@
+:root {
+  --color-btn-primary-background: hsl(200, 100%, 83%);
+  --color-btn-primary-text: hsl(200, 100%, 20%);
+  --color-btn-border: hsl(200, 100%, 20%);
+}
+.btn {
+  border: 1px solid var(--color-btn-border);
+  border-radius: 0.4rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+.btn-primary {
+  color: var(--color-btn-primary-text);
+  background-color: var(--color-btn-primary-background);
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #8ab6d6;
+}
+.btn-danger {
+  color: black;
+  background-color: #907fa4;
+}
+.btn-danger:hover {
+  color: white;
+  background-color: #693c72;
+}
+.btn-row {
+  display: flex;
+  align-items: flex-start;
+}
+.btn-row > * {
+  margin-left: 1rem;
+}
+.btn-row > *:first-child {
+  margin-left: 0;
+}
