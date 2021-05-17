@@ -2,6 +2,8 @@
 @import 'shared/header.css';
 @import 'shared/button.css';
 @import 'shared/form.css';
+@import 'shared/author.css';
+@import 'shared/book.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 :root {
   font-size: 20px;
@@ -33,4 +35,8 @@ body {
 .page-header {
   font-size: 2rem;
   font-weight: 500;
+}
+/*set error message color*/
+.error-message {
+  color: purple;
 }
