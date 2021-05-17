@@ -40,3 +40,9 @@ body {
 .error-message {
   color: purple;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    background: var(--color-background-light);
+  }
+}
