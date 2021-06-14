@@ -10,4 +10,6 @@ https://mybrary-by-xiao.herokuapp.com/books/new
 ![screencapture-mybrary-by-xiao-herokuapp-authors-new-2021-06-13-23_23_55](https://user-images.githubusercontent.com/72715756/121843273-28b8d400-cc9f-11eb-8131-eb5f6f085b47.png)
 - Search Books Page
 ![screencapture-mybrary-by-xiao-herokuapp-books-2021-06-13-23_24_10](https://user-images.githubusercontent.com/72715756/121843337-46863900-cc9f-11eb-99dd-b3cc61a7b144.png)
+- Add New Book
+![screencapture-mybrary-by-xiao-herokuapp-books-new-2021-06-13-23_24_22](https://user-images.githubusercontent.com/72715756/121843415-69b0e880-cc9f-11eb-8e6e-40b0c4c05ae1.png)
 
